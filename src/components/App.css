@@ -1,0 +1,238 @@
+/*=========General styles===========*/
+
+/*Images*/
+
+img{
+  max-width: 100%;
+}
+
+/*List*/
+
+ul{
+  padding: 0;
+}
+
+/*Text*/
+
+.smaller{
+  font-size: smaller!important;
+}
+
+.lighten{
+  color: #888;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  outline: none;
+}
+
+/*Images*/
+
+svg{
+  fill: #888;
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+}
+
+svg:active{
+  transform: scale(.8);
+}
+
+.check-circle{
+  fill: #00aa00;
+  }
+
+/*==========COMPONENTS============*/
+
+/*Header*/
+
+.master-header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.App-header {
+  background-color: #833e96;
+  padding: 0.5em;
+  color: white;
+}
+
+.App-header h2 {
+  font-size: large;
+  margin: 0.5em 0;
+}
+
+.app-body{
+  margin-top: 115px;
+}
+
+/*Nav*/
+
+.global-nav{
+  width: 100%;
+  background: #9a63ab;
+}
+
+.global-nav a{
+  padding: 0.5em;
+  display: inline-block;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+}
+
+.global-nav a.active{
+  background: #542861;
+}
+
+/*CastList*/
+
+.list{
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list__panel{
+  width: 100%;
+  line-height: 0;
+  padding: 0.5em;
+  border-top: solid 1px #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.list__panel a{
+  display: flex;
+  text-decoration: none;
+  color: #999;
+  width: calc(100% - 60px);
+}
+
+.list__panel__image{
+  margin-right: 1.5em;
+}
+
+.intrinsic--square {
+  display: block;
+  position: relative;
+  height: 0;
+  min-width: 60px;
+  padding-top: 60px;
+  background: #f0f0f0;
+}
+
+.intrinsic-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.list__panel__link{
+  padding: 1em;
+  width: 100%;
+  flex-grow: 2;
+}
+
+.list__panel__desc{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: initial;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list__panel__desc p{
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list__panel__desc p:last-of-type{
+  margin-left: 1.25em;
+}
+
+.list__panel__button{
+  width: 33px;
+  padding-top: 1.5em;
+  margin-left: auto;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
+.description-panel{
+  position: fixed;
+  bottom: 0;
+  height: 66vh;
+  background: #fff;
+  padding: 1em;
+  box-shadow: 0px -11px 30px -13px #26122b;
+  width: 100%;
+}
+
+.description-panel *{
+  white-space: pre-line;
+}
+
+.description-panel .close-icon{
+  float: right;
+}
+
+.description-panel button{
+  position: absolute;
+  bottom: 3em;
+  right: 1em;
+}
+
+.description-panel button svg{
+  width: 3em;
+  height: 3em;
+}
+
+.description-panel button svg.add-circle{
+  fill: #9a63ab;
+}
+
+/*MyCasts*/
+
+.cast-grid{
+  width: 100%;
+  margin: 0;
+  line-height: 0;
+}
+
+.cast-grid__item{
+  width: 25%;
+  display: inline-block;
+  line-height: 0;
+}
+
+/*Shows*/
+
+.shows__img{
+  background-color: black;
+  padding: 4em 0;
+}
+
+.shows__img img{
+  display: block;
+  margin: 0 auto;
+}

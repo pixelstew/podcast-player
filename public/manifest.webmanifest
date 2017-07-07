@@ -1,0 +1,15 @@
+{
+  "id": "feedcast",
+  "url": "https://localhost:3001",
+  "name": "HackerWeb",
+  "short_name": "HackerWeb",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#833e96",
+  "theme_color": "#833e96",
+  "description": "A simply readable Hacker News app.",
+  "icons": [{
+    "src": "./src/logo.svg",
+    "sizes": "48x48"
+  }]
+}
